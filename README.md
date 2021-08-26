@@ -12,4 +12,4 @@ Its a simple Paint App using HTML5 Canvas by clicking and dragging the mouse - l
 
 ## Demo
 
-(https://nikhil9546.github.io/Simple-Paint-App/index.html)
+https://nikhil9546.github.io/Simple-Paint-App/index.html
