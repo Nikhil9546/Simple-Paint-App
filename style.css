@@ -1,0 +1,49 @@
+body{ background-color: ivory; }
+
+#canvas{
+    display: block;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(202, 194, 202);
+    backdrop-filter: blur(64);
+}
+
+.output{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+#move{
+    outline: none;
+    border: none;
+    background: chartreuse;
+    height: 40px;
+    width: 100px;
+    display: block;
+    font-size: large;
+    transition: 1s transform;
+}
+
+#move:hover{
+    transform: scale(1.1);
+}
+
+#delete{
+    outline: none;
+    border: none;
+    background: chartreuse;
+    height: 40px;
+    width: 100px;
+    display: block;
+    font-size: large;
+    transition: 1s transform;
+}
+
+#delete:hover{
+    transform: scale(1.1);
+}
